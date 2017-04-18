@@ -46,7 +46,6 @@ function printWarning() {
         "font-size": "1.2em",
         "color": "white",
         "font-family": "Roboto, sans-serif"
-        // "margin": "8% 0% 0% 0%"
     });
     $div.append($title).append($message);
     $("body").append($div);
@@ -57,27 +56,6 @@ function uniqId() {
 }
 
 function makeTheDescriptionMessage() {
-    // var message = "The following website make look like its came from {Translated punycode to english} but the domain name is actually {Actual domain name}"
     var message = "The site might be an attemp to a phishing attack, it may look like its came from: " + punycode.toUnicode(document.domain) + ", But the actual domain name is: " + document.domain;
     return message;
 }
-
-$.fn.wrapInTag = function(opts) {
-  
-  var tag = opts.tag || 'strong',
-      words = opts.words || [],
-      regex = RegExp(words.join('|'), 'gi'),
-      replacement = '<'+ tag +'>$&</'+ tag +'>';
-  
-  return this.html(function() {
-    return $(this).text().replace(regex, replacement);
-  });
-};
-
-$('p').wrapInTag({
-  tag: 'em',
-  words: ['world', 'red']
-});
-
-//The following website came from a suspicious domain name, you might view it as normal english letters, but its actually {ACTUAL DOMAIN HERE}
-//Close this tab, Go back, Proceed anyway (Not recommended!){Are you sure?}
