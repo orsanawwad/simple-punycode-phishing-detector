@@ -8,15 +8,16 @@
 ![After](https://cloud.githubusercontent.com/assets/7774377/25108973/3e0e91c4-23e2-11e7-92cf-c7537046625a.png)
 
 ### Installing
-```
-Clone this repo into a folder
-Turn on Developer mode in chrome://extensions
-Click on Load unpacked extension...
-Navigate to your cloned folder
-Have a safe browsing!
-```
 
-### Chrome Store
-```
-Coming Soon!
-```
+[Download extension from here](https://github.com/orsanawwad/simple-punycode-phishing-detector/blob/master/Simple%20Punycode%20anti-phishing.crx?raw=true)
+
+Go to `chrome://extensions`
+
+Drag and drop the .crx file into the extensions window
+
+Click on Add Extension and you're done!
+
+Have a safe browsing!
+
+
+`Pull requests are welcomed`
