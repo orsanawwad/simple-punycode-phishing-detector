@@ -37,10 +37,6 @@ function printWarning() {
     });
     var messageId = uniqId().toString();
     var $message = $("<p>", {id: messageId}).text(makeTheDescriptionMessage());
-    $message.wrapInTag({
-        tag: 'strong',
-        words: [punycode.toUnicode(document.domain),document.domain]
-    });
     $message.css({
         "padding": "0% 33%",
         "font-size": "1.2em",
