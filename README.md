@@ -20,4 +20,8 @@ Click on Add Extension and you're done!
 Have a safe browsing!
 
 
+[Click here to test the extension](https://аррӏе.com/)
+
+[Another one to test](https://www.еріс.com/)
+
 `Pull requests are welcomed`
